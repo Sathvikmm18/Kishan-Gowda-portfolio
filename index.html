@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kishan, WhenHeClick Media Founder — Photographer, Videographer and Video Editor." />
+    <title>KISHAN — WhenHeClick Media Founder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preload" as="image" href="assets/images/hero.jpg" />
+  </head>
+  <body>
+    <div class="cursor" aria-hidden="true"></div>
+    <div class="cursor-dot" aria-hidden="true"></div>
+
+    <div class="intro" id="intro" aria-hidden="false">
+      <div class="intro__inner">
+        <p class="intro__mark">KISHAN</p>
+        <p class="intro__founder">WhenHeClick Media Founder</p>
+        <p class="intro__roles">Photographer • Videographer • Editor</p>
+      </div>
+    </div>
+
+    <header class="nav" id="nav">
+      <a class="nav__logo" href="#top">KISHAN</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav__links" id="navLinks">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" id="hero">
+        <div class="hero__media" data-parallax>
+          <video autoplay muted loop playsinline poster="assets/images/hero.jpg">
+            <source src="assets/videos/lv_0_20260920181712.mp4" type="video/mp4" />
+          </video>
+          <img src="assets/images/hero.jpg" alt="Portrait of Kishan" />
+        </div>
+        <div class="hero__veil"></div>
+        <div class="hero__content">
+          <h1>KISHAN</h1>
+          <p class="hero__founder">WhenHeClick Media Founder</p>
+          <p class="hero__roles">Photographer • Videographer • Editor</p>
+          <p class="hero__tag">Capturing moments. Creating stories.</p>
+        </div>
+        <a class="hero__scroll" href="#work">Scroll <span>↓</span></a>
+      </section>
+
+      <section class="work" id="work">
+        <div class="section-head">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Selected Work</h2>
+        </div>
+        <div class="filters" role="tablist" aria-label="Work categories">
+          <button class="is-active" data-filter="all">All</button>
+          <button data-filter="photography">Photography</button>
+          <button data-filter="videography">Videography</button>
+          <button data-filter="films">Reels &amp; Short Films</button>
+          <button data-filter="events">Events</button>
+          <button data-filter="portraits">Portraits</button>
+          <button data-filter="commercial">Commercial</button>
+        </div>
+        <div class="filmstrip" aria-hidden="true">
+          <div class="filmstrip__track">
+            <img src="assets/images/Picsart_26-08-31_17-07-04-782.jpg" alt="" />
+            <img src="assets/images/Picsart_26-08-31_17-08-41-694.jpg" alt="" />
+            <img src="assets/images/Picsart_26-08-31_17-23-51-938.jpg" alt="" />
+            <img src="assets/images/Picsart_26-08-31_17-03-14-016.jpg" alt="" />
+            <img src="assets/images/Picsart_26-09-26_23-52-23-048.jpg" alt="" />
+            <img src="assets/images/WhenHeclick.jpg" alt="" />
+            <img src="assets/images/IMG_6374.JPG" alt="" />
+            <img src="assets/images/hero.jpg" alt="" />
+            <img src="assets/images/Picsart_26-08-31_17-07-04-782.jpg" alt="" />
+            <img src="assets/images/Picsart_26-08-31_17-08-41-694.jpg" alt="" />
+            <img src="assets/images/Picsart_26-08-31_17-23-51-938.jpg" alt="" />
+            <img src="assets/images/Picsart_26-08-31_17-03-14-016.jpg" alt="" />
+            <img src="assets/images/Picsart_26-09-26_23-52-23-048.jpg" alt="" />
+            <img src="assets/images/WhenHeclick.jpg" alt="" />
+            <img src="assets/images/IMG_6374.JPG" alt="" />
+            <img src="assets/images/hero.jpg" alt="" />
+          </div>
+        </div>
+        <div class="gallery">
+          <article class="project project--wide" data-category="photography" data-lightbox="assets/images/Picsart_26-08-31_17-07-04-782.jpg">
+            <img src="assets/images/Picsart_26-08-31_17-07-04-782.jpg" alt="Quiet ritual photographed in warm interior light" />
+            <div class="project__meta">
+              <span>01 — MOMENTS</span>
+              <small>Photography</small>
+            </div>
+          </article>
+          <article class="project project--tall" data-category="videography" data-video="assets/videos/VID_20250826_210831_143_bsl.mp4">
+            <video muted loop playsinline preload="metadata" poster="assets/images/IMG_6374.JPG">
+              <source src="assets/videos/VID_20250826_210831_143_bsl.mp4" type="video/mp4" />
+            </video>
+            <div class="project__meta">
+              <span>02 — MOTION</span>
+              <small>Videography</small>
+            </div>
+          </article>
+          <article class="project" data-category="films" data-video="assets/videos/lv_0_20251103214117.mp4">
+            <video muted loop playsinline preload="metadata" poster="assets/images/event-agaman.png">
+              <source src="assets/videos/lv_0_20251103214117.mp4" type="video/mp4" />
+            </video>
+            <div class="project__meta">
+              <span>03 — STORIES</span>
+              <small>Short Films</small>
+            </div>
+          </article>
+          <article class="project project--portrait" data-category="portraits" data-lightbox="assets/images/Picsart_26-08-31_17-23-51-938.jpg">
+            <img src="assets/images/Picsart_26-08-31_17-23-51-938.jpg" alt="Portrait in a hanging chair" />
+            <div class="project__meta">
+              <span>04 — PEOPLE</span>
+              <small>Portraits</small>
+            </div>
+          </article>
+          <article class="project project--wide" data-category="events" data-lightbox="assets/images/Picsart_26-09-26_23-52-23-048.jpg">
+            <img src="assets/images/Picsart_26-09-26_23-52-23-048.jpg" alt="Stage performance and cultural event stills" />
+            <div class="project__meta">
+              <span>05 — EVENTS</span>
+              <small>Event Films</small>
+            </div>
+          </article>
+          <article class="project" data-category="commercial" data-lightbox="assets/images/WhenHeclick.jpg">
+            <img src="assets/images/WhenHeclick.jpg" alt="WhenHeClick brand still with camera and notebook" />
+            <div class="project__meta">
+              <span>06 — BRANDS</span>
+              <small>Commercial Content</small>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="showreel" id="showreel">
+        <div class="section-head section-head--center">
+          <h2>Showreel</h2>
+          <p>A collection of moments, stories and motion.</p>
+        </div>
+        <button class="showreel__stage" id="showreelOpen" aria-label="Play showreel fullscreen" data-video="assets/videos/0901(1).mp4">
+          <video muted loop playsinline preload="metadata" poster="assets/images/event-agaman.png">
+            <source src="assets/videos/0901(1).mp4" type="video/mp4" />
+          </video>
+          <span class="showreel__play">
+            <i></i>
+            Play
+          </span>
+        </button>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about__media reveal">
+          <img src="assets/images/IMG_6374.JPG" alt="Kishan holding a camera on location" />
+        </div>
+        <div class="about__copy reveal">
+          <p class="eyebrow">The maker</p>
+          <h2>About Kishan</h2>
+          <p class="hero__founder">WhenHeClick Media Founder</p>
+          <img class="about__brand" src="assets/images/WhenHeclick.jpg" alt="WhenHeClick — camera, lens and notebook" />
+          <p>
+            Kishan is a photographer, videographer and editor focused on creating visuals that feel authentic, cinematic and memorable.
+          </p>
+          <p>
+            From capturing real moments to crafting polished videos, his work combines photography, storytelling, motion and editing to create visual experiences that connect with people.
+          </p>
+          <ul class="about__facts">
+            <li>Based in India</li>
+            <li>Available for projects &amp; collaborations</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="section-head">
+          <p class="eyebrow">Capabilities</p>
+          <h2>What I Do</h2>
+        </div>
+        <div class="service-list">
+          <article class="service is-open">
+            <button class="service__row">
+              <span class="service__index">01</span>
+              <span class="service__title">Photography</span>
+              <span class="service__plus" aria-hidden="true"></span>
+            </button>
+            <div class="service__body">
+              <p>Portraits • Events • Lifestyle • Commercial</p>
+              <div class="service__image">
+                <img src="assets/images/Picsart_26-08-31_17-08-41-694.jpg" alt="Photography still" />
+              </div>
+            </div>
+          </article>
+          <article class="service">
+            <button class="service__row">
+              <span class="service__index">02</span>
+              <span class="service__title">Videography</span>
+              <span class="service__plus" aria-hidden="true"></span>
+            </button>
+            <div class="service__body">
+              <p>Events • Brand Films • Reels • Short Films</p>
+              <div class="service__image">
+                <img src="assets/images/IMG_6374.JPG" alt="Videography still" />
+              </div>
+            </div>
+          </article>
+          <article class="service">
+            <button class="service__row">
+              <span class="service__index">03</span>
+              <span class="service__title">Video Editing</span>
+              <span class="service__plus" aria-hidden="true"></span>
+            </button>
+            <div class="service__body">
+              <p>Editing • Color Grading • Sound Design • Motion</p>
+              <div class="service__image">
+                <img src="assets/images/WhenHeclick.jpg" alt="Editing and craft still" />
+              </div>
+            </div>
+          </article>
+          <article class="service">
+            <button class="service__row">
+              <span class="service__index">04</span>
+              <span class="service__title">Social Content</span>
+              <span class="service__plus" aria-hidden="true"></span>
+            </button>
+            <div class="service__body">
+              <p>Instagram Reels • Short-form Videos • Creative Content</p>
+              <div class="service__image">
+                <img src="assets/images/Picsart_26-08-31_17-03-50-725.jpg" alt="Lifestyle social content still" />
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="process" id="process">
+        <div class="section-head">
+          <p class="eyebrow">Approach</p>
+          <h2>From Idea to Final Frame</h2>
+        </div>
+        <ol class="process__steps">
+          <li>
+            <span>01 — Discover</span>
+            <p>Understanding the idea and vision.</p>
+          </li>
+          <li>
+            <span>02 — Create</span>
+            <p>Capturing the right moments and visuals.</p>
+          </li>
+          <li>
+            <span>03 — Edit</span>
+            <p>Transforming footage into a complete story.</p>
+          </li>
+          <li>
+            <span>04 — Deliver</span>
+            <p>Polished, cinematic final content.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="social" id="social">
+        <div class="section-head section-head--split">
+          <div>
+            <p class="eyebrow">Studio feed</p>
+            <h2>Follow the Work</h2>
+          </div>
+          <a class="text-link" href="https://instagram.com/" target="_blank" rel="noopener">Instagram →</a>
+        </div>
+        <div class="ig-grid">
+          <a href="https://instagram.com/" target="_blank" rel="noopener">
+            <img src="assets/images/Picsart_26-08-31_17-03-14-016.jpg" alt="Candid group photograph" />
+            <span>View on Instagram →</span>
+          </a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener">
+            <img src="assets/images/Picsart_26-08-31_17-23-51-938.jpg" alt="Portrait photograph" />
+            <span>View on Instagram →</span>
+          </a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener">
+            <img src="assets/images/Picsart_26-08-31_17-07-04-782.jpg" alt="Ritual photograph" />
+            <span>View on Instagram →</span>
+          </a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener">
+            <img src="assets/images/Picsart_26-08-31_17-29-15-429.jpg" alt="Portrait study" />
+            <span>View on Instagram →</span>
+          </a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener">
+            <img src="assets/images/event-agaman.png" alt="Agaman event still" />
+            <span>View on Instagram →</span>
+          </a>
+          <a href="https://instagram.com/" target="_blank" rel="noopener">
+            <img src="assets/images/Picsart_26-08-31_17-08-41-694.jpg" alt="Detail still with lamp and flowers" />
+            <span>View on Instagram →</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2>
+          Let’s create something
+          <em>worth remembering.</em>
+        </h2>
+        <p class="contact__lead">Have a project, event or story in mind?</p>
+        <div class="contact__actions">
+          <a class="btn" href="mailto:hello@kishan.studio">Start a Project</a>
+          <a class="btn btn--ghost" href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+        <ul class="contact__details">
+          <li>
+            <span>Email</span>
+            <a href="mailto:kgowdakishan@gmail.com">kgowdakishan@gmail.com</a>
+          </li>
+          <li>
+            <span>Phone / WhatsApp</span>
+            <a href="https://wa.me/+91 72046 53795" target="_blank" rel="noopener">+91 72046 53795</a>
+          </li>
+          <li>
+            <span>Location</span>
+            <p>Bengaluru</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__brand">
+        <strong>KISHAN</strong>
+        <p>WhenHeClick Media Founder</p>
+        <p>Photographer • Videographer • Editor</p>
+      </div>
+      <div class="footer__links">
+        <a href="https://instagram.com/sunson_x?dlrf=MW4xYzBhNDdjdDNnMg%3D%3D" target="_blank" rel="noopener">Instagram</a>
+        
+        <a href="https://instagram.com/whenheclick?srtk=bzZvMmY4bTF6d214" target="_blank" rel="noopener">WhenHeClick - Instagram</a>
+        <a href="https://youtube.com/" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://wa.me/+91 72046 53795" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="mailto:kgowdakishan@gmail.com">Email</a>
+      </div>
+      <p class="footer__copy">© 2026 Kishan. All rights reserved.</p>
+    </footer>
+
+    <div class="lightbox" id="lightbox" hidden>
+      <button class="lightbox__close" id="lightboxClose" aria-label="Close">Close</button>
+      <img id="lightboxImage" alt="" />
+      <video id="lightboxVideo" controls playsinline hidden></video>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
